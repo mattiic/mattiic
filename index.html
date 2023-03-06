@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Radio Station</title>
+    <style>
+      /* Main container */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      
+      /* Header */
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+      
+      /* Logo */
+      .logo {
+        width: 100px;
+        height: 100px;
+        background-image: url("radio-logo.png");
+        background-size: cover;
+        border-radius: 50%;
+      }
+      
+      /* Navigation */
+      .nav {
+        display: flex;
+      }
+      
+      .nav a {
+        color: #000;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      
+      /* Hero section */
+      .hero {
+        height: 400px;
+        background-image: url("radio-hero.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+      
+      .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(000, 000, 150, 0.4);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      
+      .hero-title {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      
+      .hero-subtitle {
+        font-size: 24px;
+        margin-bottom: 40px;
+      }
+      
+      .hero-button {
+        padding: 12px 24px;
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .hero-button:hover {
+        background-color: #fff;
+        color: #000;
+      }
+      
+      /* Latest news section */
+      .latest-news {
+        margin-bottom: 40px;
+      }
+      
+      .latest-news-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      .latest-news-item {
+        display: flex;
+        margin-bottom: 20px;
+      }
+      
+      .latest-news-image {
+        width: 200px;
+        height: 150px;
+        background-image: url("news-image.jpg");
+        background-size: cover;
+        border-radius: 4px;
+        margin-right: 20px;
+      }
+      
+      .latest-news-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .latest-news-content h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .latest-news-content p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      
+      .latest-news-content a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        transition: color 0.3
+      }
+      
+        .latest-news-content a:hover {
+    color: #777;
+  }
+  
+  /* Footer */
+  .footer {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #777;
+  }
+</style>
+</head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <div class="logo"></div>
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">Shows</a>
+          <a href="#">Music</a>
+          <a href="#">News</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+        <!-- Hero section -->
+  <div class="hero">
+    <div class="hero-overlay">
+      <h1 class="hero-title">Online Radio Station</h1>
+      <h2 class="hero-subtitle">Request / Talk / Music</h2>
+      <a href="http://stream.zeno.fm/aa8lt0modnwvv" class="hero-button">Listen Live</a>
+    </div>
+  </div>
+  
+  <!-- Latest news section -->
+  <div class="latest-news">
+    <h2 class="latest-news-title">Latest News</h2>
+    <div class="latest-news-item">
+      <div class="latest-news-image"></div>
+      <div class="latest-news-content">
+        <h3>Make Your Song Requests</h3>
+        <p>Email <a href="mailto:bstock@mattiic.ml">bstock@mattiic.ml</a> Phone <a href="tel:02036428066">0203 642 8066</a></p>
+        <p>Or use our <a href="/songrequesform.html">Online song request form</a></p>
+          <a href="/news/2023/03/makesongrequests.html">Read More</a>
+      </div>
+      </div>
+  
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2023 Online Radio Station. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+  </div>
+</div>
+        
+  </body>
+</html>
